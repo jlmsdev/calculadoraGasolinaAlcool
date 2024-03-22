@@ -1,30 +1,69 @@
-# React + TypeScript + Vite
+Claro, aqui está um exemplo de como você pode criar um README para seu aplicativo React e TypeScript básico:
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+---
 
-Currently, two official plugins are available:
+# Calculadora de Preço de Combustível
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Este é um aplicativo simples desenvolvido em React e TypeScript que calcula o preço mais vantajoso entre gasolina e álcool, com base nos valores inseridos pelo usuário.
 
-## Expanding the ESLint configuration
+## Funcionalidades
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- Calcula o preço mais vantajoso entre gasolina e álcool.
+- Permite ao usuário inserir o preço da gasolina e do álcool.
+- Mostra o resultado indicando qual combustível é mais econômico.
 
-- Configure the top-level `parserOptions` property like this:
+## Tecnologias Utilizadas
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+- React: Uma biblioteca JavaScript para criar interfaces de usuário.
+- TypeScript: Uma linguagem de programação que adiciona tipagem estática opcional ao JavaScript.
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## Como Utilizar
+
+1. Certifique-se de ter o Node.js instalado em seu sistema. Você pode baixá-lo em [https://nodejs.org](https://nodejs.org).
+2. Clone este repositório em sua máquina local:
+
+    ```
+    git clone https://github.com/seu-usuario/calculadora-combustivel.git
+    ```
+
+3. Navegue até o diretório do projeto:
+
+    ```
+    cd calculadora-combustivel
+    ```
+
+4. Instale as dependências do projeto:
+
+    ```
+    npm install
+    ```
+
+5. Inicie o aplicativo:
+
+    ```
+    npm start
+    ```
+
+6. Abra seu navegador e acesse [http://localhost:3000](http://localhost:3000) para ver o aplicativo em ação.
+
+7. Insira os valores da gasolina e do álcool nos campos de input e veja qual combustível é mais vantajoso no momento.
+
+## Estrutura do Projeto
+
+- `src/`: Contém o código-fonte do aplicativo.
+  - `components/`: Componentes React do aplicativo.
+  - `App.tsx`: Componente principal do aplicativo.
+  - `index.tsx`: Ponto de entrada do aplicativo.
+- `public/`: Contém arquivos estáticos como HTML e ícones.
+
+## Contribuição
+
+Contribuições são bem-vindas! Sinta-se à vontade para abrir uma issue ou enviar um pull request.
+
+## Licença
+
+Este projeto está licenciado sob a [MIT License](LICENSE).
+
+---
+
+Adapte o conteúdo conforme necessário para refletir os detalhes específicos do seu projeto.
