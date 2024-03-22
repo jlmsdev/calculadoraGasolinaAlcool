@@ -49,3 +49,33 @@
 .button:hover {
     background-color: #042d45;
 }
+
+.result {
+    background-color: #00b63e;
+    width: 100%;
+    max-width: 420px;
+    padding: 20px  28px;
+    border-radius: 4px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin: 24px 0;
+    transition:  transform .8s;
+}
+
+.result:hover {
+    transform: scale(1.1);
+}
+
+.result-title{
+    color: #FFF;
+    font-size: 24px;
+    margin-bottom: 16px;
+    font-weight: bold;
+}
+
+.result span {
+    color: #FFF;
+    margin: 5px 0;
+    font-size: 18px;
+}
