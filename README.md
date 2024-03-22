@@ -1,6 +1,4 @@
-Claro, aqui está um exemplo de como você pode criar um README para seu aplicativo React e TypeScript básico:
 
----
 
 # Calculadora de Preço de Combustível
 
